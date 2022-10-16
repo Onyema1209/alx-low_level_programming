@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -8,11 +6,13 @@
  */
 int main(void)
 {
-	int c;
-		for (c = 97; c <= 122; c++)
+	char alpha = 'a';
+
+	while (alpha <= 'z')
 	{
-		putchar(c);
+		putchar(alpha);
+		alpha++;
 	}
-		printf("\n");
+	putchar('\n');
 	return (0);
 }
