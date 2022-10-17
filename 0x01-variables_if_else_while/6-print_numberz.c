@@ -7,10 +7,12 @@
  */
 int main(void)
 {
-		int i;
-	for (i = 0; i < 10; i++)
+	int l = 0;
+
+	while (l < 10)
 	{
-		putchar(i + '0');
+		putchar(l + '0');
+		l++;
 	}
 	putchar('\n');
 	return (0);
