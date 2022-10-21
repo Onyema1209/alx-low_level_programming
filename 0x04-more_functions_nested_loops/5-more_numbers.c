@@ -3,6 +3,8 @@
 
 /**
  * more_numbers - print 0 to 14, 10 times
+ * Description: This function prints 0-14
+ * x10 times if its 10 then we add 1 and print num
  * Return: void (nothing)
  */
 void more_numbers(void)
