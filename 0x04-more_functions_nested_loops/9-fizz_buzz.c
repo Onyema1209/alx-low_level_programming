@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-   * main - implement the Fizz Buzz program
-        * Return: 0 (success)
-	 */
+ * main - implement the Fizz Buzz program
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	int value = 1;
@@ -20,10 +20,13 @@ int main(void)
 				printf("\n");
 			}		
 			else
-				printf("Buzz ")
+				printf("Buzz ");
 		}
 		else if (value % 3 == 0)
 			printf("Fizz ");
 		else
+			printf("%d", value);
+		value++;
+	}
 	return (0);
 }
